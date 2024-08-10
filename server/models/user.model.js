@@ -16,6 +16,11 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    avatar: {
+      type: String,
+      default:
+        "https://circleboom.com/blog/content/images/2022/10/funny-twitter-bio.webp",
+    },
   },
   { timestamps: true }
 );
